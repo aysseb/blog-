@@ -1,0 +1,33 @@
+.blog{
+    box-sizing: border-box;
+    max-width: 1000px;
+    margin: 0 auto;
+
+}
+.blogimages{
+    width: 100%;
+    max-width: 400px;
+
+}
+.flex_image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.blogparagraf{
+    max-width: 600px;
+    line-height: 1.4rem;
+}
+.blogbaslikh1{
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+/*section1*/
+
+.section1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
