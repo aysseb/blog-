@@ -1,3 +1,29 @@
+.poppins-extralight {
+    font-family: "Poppins", serif;
+    font-weight: 200;
+    font-style: normal;
+    color: rgb(65, 55, 55);
+  }
+  .poppins-light {
+    font-family: "Poppins", serif;
+    font-weight: 500;
+    font-size: 1.1rem;
+    color: rgb(57, 50, 50);
+    
+  }
+
+  .poppins-medium {
+    font-family: "Poppins", serif;
+    font-weight: 500;
+    font-style: normal;
+    color: rgb(43, 36, 36);
+  }
+  .poppins-regular {
+    font-family: "Poppins", serif;
+    font-weight: 200;
+    color: rgb(43, 36, 36);
+  }
+
 .blog{
     box-sizing: border-box;
     max-width: 1000px;
@@ -22,6 +48,41 @@
     margin-bottom: 0;
     padding-bottom: 0;
 }
+.buton{
+    width: 300px;
+    max-width: 300px;
+    background-color: rgba(54, 50, 48, 0.685);
+    padding: 0.7rem 4rem;
+    border: none;
+    border-radius: 20px;
+}
+.buton:hover{
+  background-color: rgba(124, 117, 113, 0.685);
+  transition-duration: 2s;
+
+}
+.etiket{
+    text-decoration: none;
+    color: white;
+    
+}
+.flex_kutu{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.flex_column{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+
 /*section1*/
 
 .section1{
@@ -31,3 +92,48 @@
     justify-content: center;
     gap: 1rem;
 }
+.blog-list{
+    list-style: none;
+    text-align: center;
+
+}
+@media all and (max-width:576px){
+    .blog{
+        margin: 1.4rem;
+        padding-left: 0.25rem;
+        padding-right: 0.25rem;
+
+    }
+    
+    .flex_kutu{
+        flex-direction: column;
+        gap: 0;
+        margin-bottom: 1rem;
+         
+    }
+    .flex_column{
+        flex-direction: column;
+        gap: 0;
+        margin-bottom: 1rem;   
+       
+    }
+    .flex_image{
+        flex-direction: column;
+        margin-bottom: 1rem; 
+
+    }
+    .arka_plan{
+        background: rgb(243, 253, 255);
+        background: linear-gradient(
+        90deg,
+        rgba(243, 253, 255, 1) 0%,
+        rgba(239, 251, 251, 1) 17%,
+        rgba(255, 223, 193, 1) 64%);
+        padding: 1rem 1rem;
+        
+    }
+
+
+    }
+
+
