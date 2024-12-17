@@ -1,145 +1,142 @@
 .poppins-extralight {
-    font-family: "Poppins", serif;
-    font-weight: 200;
-    font-style: normal;
-    color: rgb(65, 55, 55);
-  }
-  .poppins-light {
-    font-family: "Poppins", serif;
-    font-weight: 500;
-    font-size: 1.1rem;
-    color: rgb(57, 50, 50);
-    
-  }
+  font-family: "Poppins", serif;
+  font-weight: 200;
+  font-style: normal;
+  color: rgb(65, 55, 55);
+}
+.poppins-light {
+  font-family: "Poppins", serif;
+  font-weight: 500;
+  font-size: 1.1rem;
+  color: rgb(57, 50, 50);
+}
 
-  .poppins-medium {
-    font-family: "Poppins", serif;
-    font-weight: 500;
-    font-style: normal;
-    color: rgb(43, 36, 36);
-  }
-  .poppins-regular {
-    font-family: "Poppins", serif;
-    font-weight: 200;
-    color: rgb(43, 36, 36);
-  }
+.poppins-medium {
+  font-family: "Poppins", serif;
+  font-weight: 500;
+  font-style: normal;
+  color: rgb(43, 36, 36);
+}
+.poppins-regular {
+  font-family: "Poppins", serif;
+  font-weight: 200;
+  color: rgb(43, 36, 36);
+}
 
-.blog{
-    box-sizing: border-box;
-    max-width: 1000px;
-    margin: 0 auto;
-
+.blog {
+  box-sizing: border-box;
+  max-width: 1000px;
+  margin: 0 auto;
+  overflow: hidden;
 }
-.blogimages{
-    width: 100%;
-    max-width: 400px;
-
+.blogimages {
+  width: 100%;
+  max-width: 400px;
 }
-.flex_image{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.flex_image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.blogparagraf{
-    max-width: 600px;
-    line-height: 1.4rem;
+.blogparagraf {
+  max-width: 600px;
+  line-height: 1.4rem;
 }
-.blogbaslikh1{
-    margin-bottom: 0;
-    padding-bottom: 0;
+.blogbaslikh1 {
+  margin-bottom: 0;
+  padding-bottom: 0;
 }
-.buton{
-    width: 300px;
-    max-width: 300px;
-    background-color: rgba(54, 50, 48, 0.685);
-    padding: 0.7rem 4rem;
-    border: none;
-    border-radius: 20px;
+.buton {
+  width: 300px;
+  max-width: 300px;
+  background-color: rgba(54, 50, 48, 0.685);
+  padding: 0.7rem 4rem;
+  border: none;
+  border-radius: 20px;
 }
-.buton:hover{
+.buton:hover {
   background-color: rgba(124, 117, 113, 0.685);
-  transition-duration: 2s;
-
+  transition: background-color 0.3s ease;
 }
-.etiket{
-    text-decoration: none;
-    color: white;
-    
+.etiket {
+  text-decoration: none;
+  color: white;
 }
-.flex_kutu{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    gap: 2rem;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
+.flex_kutu {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 2rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
-.flex_column{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 1rem;
+.flex_column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
 }
-
 
 /*section1*/
 
-.section1{
-    display: flex;
+.section1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+.blog-list {
+  list-style: none;
+  text-align: center;
+}
+@media all and (max-width: 576px) {
+  .blog {
+    box-sizing: border-box;
+    padding: 0 0.25rem;
+  }
+  .blogimages {
+    max-width: 90%;
+    padding-bottom: 1rem;
+  }
+
+  .flex_kutu {
     flex-direction: column;
+    gap: 0;
+    margin-bottom: 1rem;
+    align-self: center;
+  }
+  .flex_column {
+    flex-direction: column;
+    gap: 0;
+    margin-bottom: 1rem;
     align-items: center;
+  }
+  .flex_image {
+    flex-direction: column;
+    margin-bottom: 1rem;
     justify-content: center;
-    gap: 1rem;
-}
-.blog-list{
-    list-style: none;
+  }
+  .arka_plan {
+    background: rgb(243, 253, 255);
+    background: linear-gradient(
+      90deg,
+      rgba(243, 253, 255, 1) 0%,
+      rgba(239, 251, 251, 1) 17%,
+      rgba(255, 223, 193, 1) 64%
+    );
+  }
+  .buton {
+    width: 100%;
+  }
+  .blogbaslikh1,
+  .blogbaslikh2 {
     text-align: center;
+  }
 
+  .blogparagraf {
+    text-align: justify;
+    padding: 0 1rem;
+  }
 }
-@media all and (max-width:576px){
-    .blog{
-        box-sizing: border-box;
-        padding: 0 0.25rem;
-    }
-    
-    .flex_kutu{
-        flex-direction: column;
-        gap: 0;
-        margin-bottom: 1rem;
-        align-self: center;
-         
-    }
-    .flex_column{
-        flex-direction: column;
-        gap: 0;
-        margin-bottom: 1rem;   
-        align-items: center;
-       
-    }
-    .flex_image{
-        flex-direction: column;
-        margin-bottom: 1rem; 
-        justify-content: center;
-
-    }
-    .arka_plan{
-        background: rgb(243, 253, 255);
-        background: linear-gradient(
-        90deg,
-        rgba(243, 253, 255, 1) 0%,
-        rgba(239, 251, 251, 1) 17%,
-        rgba(255, 223, 193, 1) 64%);
-        
-        
-    }
-    .blogbaslikh1{
-        text-align: center;
-    }
-    .blogbaslikh2{
-        text-align: center;
-    }
-
-    }
-
-
