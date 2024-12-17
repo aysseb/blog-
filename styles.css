@@ -99,27 +99,28 @@
 }
 @media all and (max-width:576px){
     .blog{
-        margin: 1.4rem;
-        padding-left: 0.25rem;
-        padding-right: 0.25rem;
-
+        box-sizing: border-box;
+        padding: 0 0.25rem;
     }
     
     .flex_kutu{
         flex-direction: column;
         gap: 0;
         margin-bottom: 1rem;
+        align-self: center;
          
     }
     .flex_column{
         flex-direction: column;
         gap: 0;
         margin-bottom: 1rem;   
+        align-items: center;
        
     }
     .flex_image{
         flex-direction: column;
         margin-bottom: 1rem; 
+        justify-content: center;
 
     }
     .arka_plan{
@@ -129,10 +130,15 @@
         rgba(243, 253, 255, 1) 0%,
         rgba(239, 251, 251, 1) 17%,
         rgba(255, 223, 193, 1) 64%);
-        padding: 1rem 1rem;
+        
         
     }
-
+    .blogbaslikh1{
+        text-align: center;
+    }
+    .blogbaslikh2{
+        text-align: center;
+    }
 
     }
 
